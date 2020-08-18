@@ -46,6 +46,7 @@ extension VideoListScreen: UITableViewDataSource, UITableViewDelegate {
     // caktojme numrin e rreshtave -> varesisht sa variabla ka array
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return videos.count
+      // added comment Veton majki
     }
     // krijojem cellat dhe lidhim me fajllin e cellit -> VideCell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
